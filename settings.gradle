@@ -4,14 +4,22 @@ pluginManagement {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
+        maven { url 'https://repo.maven.apache.org'}
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
     }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
+//        google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
+        maven { url 'https://repo.maven.apache.org'}
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
     }
 }
 rootProject.name = "SumTea_Android"
